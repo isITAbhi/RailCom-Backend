@@ -28,7 +28,7 @@ const DB_URL = require('./config/keys').MongoURI;
 //connect to mongo
 //---------------------------------------------
 const corsOptions = {
-    origin: ["http://localhost:3000","https://rail-com-frontend-urbr.vercel.app"],
+    origin: ["http://localhost:3000","https://rail-com-frontend.vercel.app"],
     credentials: true, //access-control-allow-credentials:true
     optionSuccessStatus: 200,
   };
